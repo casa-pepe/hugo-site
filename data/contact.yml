@@ -1,0 +1,11 @@
+enable : true
+heading : Get In
+headingSpan : Touch
+title : Contact Details
+content : We look forward to working with you on your event! Feel free to get in touch
+contactDetails :
+  - icon : tf-ion-ios-telephone-outline
+    info : "Phone: 907-903-8865"
+    
+  - icon : tf-ion-ios-email-outline
+    info : "Email: contact@pepespaella.com"

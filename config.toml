@@ -1,0 +1,58 @@
+languageCode = "en-us"
+title = "Casa Pepe's Paella"
+baseURL = "http://pepespaella.com/"
+theme = "casa-pepe"
+
+# Menu
+[menu]
+#    [[menu.nav]]
+#    name = "About Us"
+#    URL = "about"
+#    weight = 2
+
+#    [[menu.nav]]
+#    name = "Testimonials"
+#    URL = "testimonials"
+#    weight = 3
+
+    [[menu.nav]]
+    name = "Contact"
+    URL = "contact-us"
+    weight = 4
+
+# Site params
+[params]
+home= "Home"
+logo = ""
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+# Meta data
+description = "Authentico Alaskan Paella"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+custom_css = ["css/custom.css"]
+
+    # Banner Section
+    [params.banner]
+    enable = true
+    bgImage = "images/banner4.jpg"
+    icon = false
+    heading = "Casa Pepe"
+    content= "Still Simmering... please hold"
+    btn = false
+    btnText="Explore Us"
+    btnURL="#services"
+
+    # footer
+    [params.footer]
+        copyright = "Casa Pepe"
+        copyrightURL = "https://pepespaella.com"
+
+        # social Icons
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-facebook"
+        url = "https://www.facebook.com/pepespaella/"
+
+        [[params.footer.socialIcon]]
+        icon = "tf-ion-social-instagram"
+        url = "https://www.instagram.com/pepespaella/"
