@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Casa Pepe's Paella"
-baseURL = "http://pepespaella.com/"
+baseURL = "https://pepespaella.com/"
 theme = "casa-pepe"
 
 # Menu
